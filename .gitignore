@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+
+# Large datasets
+*.csv
+datasets/
+
+# Virtual environments
+*/venv/
+*/.venv/
+
+# Egg info
+*.egg-info/
+
+# Build files
+build/
+dist/
+
+# Logs
+*.log 
