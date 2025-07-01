@@ -12,7 +12,7 @@ Usage:
 
 import os
 import uvicorn
-from ml_api.main import app
+from main import app
 
 def get_server_config():
     """Get server configuration from environment variables or defaults"""
@@ -41,7 +41,7 @@ def run_production_server():
     
     # Production server configuration
     uvicorn.run(
-        "ml_api.main:app",
+        "main:app",
         host=config["host"],
         port=config["port"],
         workers=config["workers"] if not config["reload"] else 1,
